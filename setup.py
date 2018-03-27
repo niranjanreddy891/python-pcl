@@ -5,6 +5,8 @@ from Cython.Distutils import build_ext
 from distutils.core import setup
 from distutils.extension import Extension
 # from Cython.Build import cythonize    # MacOS NG
+# @niranjanreddy891
+
 from setuptools import setup, find_packages, Extension
 
 import subprocess
@@ -635,7 +637,7 @@ setup(name='python-pcl',
       license='BSD',
       packages=[
                 "pcl",
-                # "pcl.pcl_visualization",
+                 "pcl.pcl_visualization",
       ],
       zip_safe=False,
       setup_requires=setup_requires,
