@@ -1,8 +1,7 @@
 # -*- coding: utf-8 -*-
 from __future__ import print_function
 
-# This Code Base
-# http://ros-robot.blogspot.jp/2011/08/pclapi-point-cloud-library-pcl-pcl-api.html
+# @ author: niranjanreddy891@gmail.com
 
 import numpy as np
 import pcl
