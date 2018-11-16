@@ -37,6 +37,8 @@ maxz = 3
 maxs = 0
 clipper.set_MinMax(minx, miny, minz, mins, maxx, maxy, maxz, maxs)
 clipper.Filtering(outcloud)
+# for clipping
+outcloud = clipper.filter()
 
 pcl.save(outcloud, "test.pcd")
 
